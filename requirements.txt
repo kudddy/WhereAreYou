@@ -1,6 +1,6 @@
 requests
 cmake
-BeautifulSoup
+beautifulsoup4
 numpy
 tqdm
 dlib
