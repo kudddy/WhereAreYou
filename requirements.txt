@@ -1,0 +1,10 @@
+requests
+cmake
+BeautifulSoup
+numpy
+tqdm
+dlib
+opencv-python
+face_recognition
+python-telegram-bot
+psycopg2
