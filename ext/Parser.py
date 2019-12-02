@@ -94,7 +94,6 @@ class MakeEncoders:
                             print('добавили лицо')
 
                 except Exception as e:
-                    print('мы тут')
                     print(e)
 
         return local_dict
@@ -111,7 +110,6 @@ class MakeEncoders:
                 self.step = self.step + 1
             work_with_pickle.dump_pickle_file(self.global_dict, 'encoders.pickle')
         except Exception as e:
-            print('пиздец')
             print(str(e))
             print(self.step)
             work_with_pickle.dump_pickle_file(self.global_dict, 'encoders_{}.pickle'.format(len(os.listdir())))
